@@ -1,0 +1,74 @@
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraph1 {
+  font-weight: bold;
+  margin: 0px;
+}
+
+.paragraph2 {
+  margin: 5px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  display: inline-block;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+form {
+  margin: 0px;
+}
+
+.todo-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.add {
+  border-radius: 10px;
+  margin: 10px 0px;
+  padding: 10px;
+  width: 100%;
+  align-content: center;
+  justify-content: center;
+  background-color: #ff1493;
+  color: white;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.complete-btn {
+  border-radius: 10px;
+  padding: 7px 10px;
+  margin: 5px;
+  color: #ff69b4;
+  border: 1px solid;
+  background-color: white;
+  position: relative;
+  vertical-align: middle;
+}
+li {
+  font-size: 16px;
+}
+
+#icon {
+  position: absolute;
+  top: 20;
+  left: 85%;
+  padding: 0px;
+  margin: 0px;
+  /* display: inline-block; */
+}
